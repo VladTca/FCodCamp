@@ -1,0 +1,2 @@
+// objekti
+// i pres vscode
