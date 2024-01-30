@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Asking Form.</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Asking Form</h1>
+    <p id="description">This is asking form.</p>
+    <form id="survey-form" action="">
+        <label id="name-label" for="name">
+            <input id="name" type="text" required placeholder="Input your name!">
+        </label>
+        <label for="email" id="email-label">
+            <input id="email" type="email" required placeholder="Input your email!">
+        </label>
+        <label for="number" id="number-label">
+            <input id="number" type="number" min="10" max="100" placeholder="Input your number!">
+        </label>
+        <label>
+            <select id="dropdown">
+                <option value="">
+                    (select one...)
+                </option>
+                <option value="1">
+                    First
+                </option>
+                <option value="2">
+                    Second
+                </option>
+            </select>
+        </label>
+        <label>
+            <label for="first"><input id="first" type="radio" name="rad" checked value="1"/> First</label>
+            <label for="second"><input id="second" type="radio" name="rad" value="2"/> Second</label>
+        </label>
+        <label>
+            <input type="checkbox" value="1">
+            <input type="checkbox" value="2">
+            <input type="checkbox" value="3">
+        </label>
+        <label>
+            <textarea>
+
+            </textarea>
+        </label>
+        <label>
+            <button id="submit">Submit</button>
+        </label>
+    </form>
+  </body>
+</html>
