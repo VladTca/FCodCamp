@@ -34,3 +34,6 @@ font-style: italic;
 h3+p{
     text-align: justify;
 }
+ul{
+    list-style: square;
+}
