@@ -1,3 +1,20 @@
+/*@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+.block{
+  font-family: 'Abril Fatface', sans-serif;
+}
+*/
+
+
+@font-face {
+    font-family: <family-name>;
+    src: (<url>) <src>;
+    font-stretch: <font-stretch>;
+    font-weight: <font-weight>;
+    font-style: <font-style>;
+}
+/*from file*/
+
+
 @media (prefers-reduced-motion: no-preference) {
     * {
         scroll-behavior: smooth;
