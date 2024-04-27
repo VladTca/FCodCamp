@@ -14,14 +14,161 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Tech Docs">
 
-    <link rel="stylesheet" href="styles.css" />
+<!--    <link rel="stylesheet" href="styles.css" />-->
 </head>
 <body>
 <header>
 
 </header>
-<main>
+<main id="main-doc">
+    <section id="introduction"  class="main-section">
+        <header>
+            <h1>Introduction</h1>
+        </header>
+        <article>
+            <p>
+                Welcome to Tech Docs! This is a collection of technical documentation for various technologies.
+            </p>
+        </article>
+    </section>
+    <section id="html" class="main-section">
+        <header>
+            <h1>HTML</h1>
+        </header>
+        <article>
+            <header>
+                <h2>HTML Basics</h2>
+            </header>
+            <p>
+                HTML is the standard markup language for creating Web pages.
 
+            </p>
+        </article>
+        <article>
+            <header>
+                <h2>HTML Elements</h2>
+            </header>
+            <p>
+                An HTML element is defined by a start tag, some content, and an end tag.
+                Here are some other examples of HTML elements:
+                <code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code>,
+                <code>&lt;div&gt;This is a division element&lt;/div&gt;</code>,
+                <code>&lt;span&gt;This is a span element&lt;/span&gt;</code>,
+                <code>&lt;a href="https://example.com"&gt;This is a link&lt;/a&gt;</code>.
+                <code>&lt;img src="image.jpg" alt="This is an image"&gt;</code>
+            </p>
+        </article>
+    </section>
+    <section id="css" class="main-section">
+        <header>
+            <h1>CSS</h1>
+        </header>
+        <article>
+            <header>
+                <h2>CSS Basics</h2>
+            </header>
+            <p>
+                CSS is the language we use to style an HTML document.
+
+            </p>
+        </article>
+        <article>
+            <header>
+                <h2>CSS Syntax</h2>
+            </header>
+            <p>
+                A CSS rule-set consists of a selector and a declaration block.
+                Here are some other examples of CSS rules:
+                <code>h1 { color: blue; }</code>,
+                <code>p { font-size: 16px; }</code>,
+                <code>.container { width: 100%; }</code>,
+                <code>#header { background-color: #333;</code>
+                <code>.btn { padding: 10px 20px; } </code>
+
+            </p>
+        </article>
+    </section>
+    <section id="js" class="main-section">
+        <header>
+            <h1>JavaScript</h1>
+        </header>
+        <article>
+            <header>
+                <h2>JavaScript Basics</h2>
+            </header>
+            <p>
+                JavaScript is the programming language of the Web.
+            </p>
+        </article>
+        <article>
+            <header>
+                <h2>JavaScript Functions</h2>
+            </header>
+            <p>
+                A JavaScript function is a block of code designed to perform a particular task.
+                Here are some other examples of JS functions:
+                <code>function myFunction() { return "Hello World!"; }</code>,
+                <code>function add(a, b) { return a + b; }</code>,
+                <code>function greet(name) { return "Hello, " + name; }</code>,
+                <code>function multiply(a, b) { return a * b; }</code>
+                <code>function divide(a, b) { return a / b; }</code>
+            </p>
+        </article>
+    </section>
+    <section id='node' class="main-section">
+        <header>
+            <h1>Node.js</h1>
+        </header>
+        <article>
+            <header>
+                <h2>Node.js Basics</h2>
+            </header>
+            <p>
+                Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+            </p>
+        </article>
+        <article>
+            <header>
+                <h2>Node.js Modules</h2>
+            </header>
+            <p>
+                Node.js has a simple module loading system.
+                Here are some other examples of Node.js modules:
+                <code>const fs = require('fs');</code>,
+                <code>const http = require('http');</code>,
+                <code>const path = require('path');</code>,
+                <code>const os = require('os');</code>
+                <code>const url = require('url');</code>
+            </p>
+        </article>
+    </section>
+    <section id="react" class="main-section">
+        <header>
+            <h1>React</h1>
+        </header>
+        <article>
+            <header>
+                <h2>React Basics</h2>
+            </header>
+            <p>
+                React is a JavaScript library for building user interfaces.
+            </p>
+        </article>
+        <article>
+            <header>
+                <h2>React Components</h2>
+            </header>
+            <p>
+                React components let you split the UI into independent, reusable pieces.
+                Here are some other examples of React components:
+                <code>function Welcome(props) { return &lt;h1&gt;Hello, {props.name}&lt;/h1&gt;; }</code>,
+                <code>function App() { return &lt;div&gt;&lt;Welcome name="Sara" /&gt;&lt;Welcome name="Cahal" /&gt;&lt;Welcome name="Edite" /&gt;&lt;/div&gt;; }</code>,
+                <code>function Clock(props) { return &lt;div&gt;&lt;h1&gt;Hello, world!&lt;/h1&gt;&lt;h2&gt;It is {props.date.toLocaleTimeString()}.&lt;/h2&gt;&lt;/div&gt;; }</code>,
+                <code>function Avatar(props) { return &lt;img className="Avatar" src={props.user.avatarUrl} alt={props.user.name} /&gt;; }</code>
+                <code>function Comment(props) { return &lt;div className="Comment"&gt;&lt;UserInfo user={props.author} /&gt;&lt;div className="Comment-text"&gt;{props.text}&lt;/div&gt;&lt;div className="Comment-date"&gt;{formatDate(props.date)}&lt;/div&gt;&lt;/div&gt;; }</code>
+            </p>
+        </article>
+    </section>
 </main>
 <footer>
 
