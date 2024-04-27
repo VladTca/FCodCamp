@@ -1,0 +1,29 @@
+/*@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+.block{
+  font-family: 'Abril Fatface', sans-serif;
+}
+*/
+
+
+@font-face {
+    font-family: <family-name>;
+    src: (<url>) <src>;
+    font-stretch: <font-stretch>;
+    font-weight: <font-weight>;
+    font-style: <font-style>;
+}
+/*@font-face {*/
+/*    font-family: my-bold-font;*/
+/*    src: url('my-font-bold.otf');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*    font-stretch: normal;*/
+/*}*/
+/*from file*/
+
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
