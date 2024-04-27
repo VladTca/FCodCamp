@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #00beef;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+header a{
+    color: #00beef;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #99c9ff;
+    font-family: 'Roboto', sans-serif;
+    color: #495057;
+
+}
+
+video{
+    margin: 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #2a2a40;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+article{
+    display: flex;
+
+    gap: 10px;
+    padding: 20px;
+    background-color: #2a2a40;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #2a2a40;
+    border-color: #4d0f00;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #00beef;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 768px){
+  header{
+    padding: 10px 40px;
+  }
+
+}
