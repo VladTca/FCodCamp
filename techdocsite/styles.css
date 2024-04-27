@@ -1,3 +1,77 @@
+main{
+    margin-left: 250px;
+    padding: 0 20px 20px;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    transition: 0.5s;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: #555;
+}
+
+
+h1{
+    font-size: 1.5em;
+    text-decoration-line: underline;
+}
+
+section{
+    margin: 50px;
+
+}
+section h2{
+    margin-top: 0;
+    font-style: italic;
+}
+
+section a{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    background: #f4f4f4;
+    text-decoration: none;
+    color: #333;
+}
+section a:hover{
+    background: #e4e4e4;
+}
+
+section code{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    nav {
+        left: -250px;
+    }
+
+    main {
+        margin-left: 0;
+    }
+}
+
 @media (min-width: 768px) {
     #navbar {
         position: fixed;
