@@ -6,24 +6,35 @@ header {
     background-color: #333;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px 50px;
     color: #00beef;
-
+    gap: 20px;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right:0px;
+    z-index: 100;
 
 }
 
-nav {
+#navbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 20px;
+    right:50px;
+    z-index: 1000;
+    font-size: 1.25rem;
 
 }
 
 header h1 {
     font-size: 1.5rem;
 }
+
 nav a {
     color: #00beef;
     text-decoration: none;
@@ -105,11 +116,13 @@ form {
     width: 25%;
 
 }
+
 form input {
     width: 100%;
 
     margin: 5px;
 }
+
 form textarea {
     width: 100%;
     height: 100px;
@@ -135,21 +148,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        margin-top: 20px;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    main {
-        padding: 20px;
-    }
 
     section {
         padding: 20px;
