@@ -1,0 +1,38 @@
+.card {
+    height: 150px;
+    width: 15%;
+}
+
+.front, .back {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    width: 80%
+}
+
+/* Only change code below this line */
+
+.card {
+    transition:2s ease;
+    transform-style: preserve-3d;
+
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    backface-visibility:hidden;
+    position:absolute;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
